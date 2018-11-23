@@ -1,0 +1,10 @@
+# Impedir la navegacion por directorios
+Options All -Indexes
+
+#Url Amigables
+
+RewriteEngine on
+
+#Reglas
+
+RewriteRule ^(\w+)$ index.php?action=$1
